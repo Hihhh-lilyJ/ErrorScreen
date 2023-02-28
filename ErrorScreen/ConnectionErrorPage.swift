@@ -18,24 +18,24 @@ struct ConnectionErrorPage: View {
             VStack (alignment: .leading){
                 Text("Hang on a sec...")
                     .padding(.vertical, 20)
-                    .font(.title)
+                    .font(.largeTitle)
                     .foregroundColor(Color.white)
                 
                 Text("It seems you are in the middle of the ocean")
-                    .font(.body)
+                    .font(.title2)
                     .foregroundColor(Color.white).opacity(0.7)
                     .padding(.bottom, 30)
                 
                 Button(action: {
                     
                 }) {
-                    Text("Retry".uppercased())
-                        .font(.headline)
+                    Text("Refresh".uppercased())
+                        .font(.body)
                         .fontWeight(.bold)
-                        .foregroundColor(Color.white).opacity(0.8)
+                        .foregroundColor(Color.black).opacity(0.8)
                         .padding(.vertical)
                         .padding(.horizontal, 30)
-                        .background(Capsule().foregroundColor(Color.indigo).opacity(0.5))
+                        .background(Capsule().foregroundColor(Color.white))
                 }
             }
             .padding(.vertical)
