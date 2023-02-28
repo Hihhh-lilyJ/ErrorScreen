@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52016C4729ADA9BE00FE02BB /* RouterErrorPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52016C4629ADA9BE00FE02BB /* RouterErrorPage.swift */; };
+		52016C4929ADAB8F00FE02BB /* PaymentErrorPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52016C4829ADAB8F00FE02BB /* PaymentErrorPage.swift */; };
 		52B8C36829AC951400B74F6F /* ErrorScreenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B8C36729AC951400B74F6F /* ErrorScreenApp.swift */; };
 		52B8C36A29AC951400B74F6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B8C36929AC951400B74F6F /* ContentView.swift */; };
 		52B8C36C29AC951600B74F6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B8C36B29AC951600B74F6F /* Assets.xcassets */; };
@@ -25,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52016C4629ADA9BE00FE02BB /* RouterErrorPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterErrorPage.swift; sourceTree = "<group>"; };
+		52016C4829ADAB8F00FE02BB /* PaymentErrorPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentErrorPage.swift; sourceTree = "<group>"; };
 		52B8C36429AC951400B74F6F /* ErrorScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ErrorScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B8C36729AC951400B74F6F /* ErrorScreenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorScreenApp.swift; sourceTree = "<group>"; };
 		52B8C36929AC951400B74F6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -86,6 +90,8 @@
 				52DEA91729ACFFDD00E8616E /* ResultPageError.swift */,
 				52DEA91929AD084C00E8616E /* SomethingsErrorPage.swift */,
 				52DEA91B29AD0A3500E8616E /* ConnectionErrorPage.swift */,
+				52016C4629ADA9BE00FE02BB /* RouterErrorPage.swift */,
+				52016C4829ADAB8F00FE02BB /* PaymentErrorPage.swift */,
 				52B8C36B29AC951600B74F6F /* Assets.xcassets */,
 				52B8C36D29AC951600B74F6F /* Preview Content */,
 			);
@@ -172,9 +178,11 @@
 			files = (
 				52DEA91629ACFB2200E8616E /* SpaceErrorPage.swift in Sources */,
 				52DEA91C29AD0A3600E8616E /* ConnectionErrorPage.swift in Sources */,
+				52016C4729ADA9BE00FE02BB /* RouterErrorPage.swift in Sources */,
 				52B8C38229ACD92E00B74F6F /* UnexpectedErrorPage.swift in Sources */,
 				52B8C38029ACCD8F00B74F6F /* 404DeadPage.swift in Sources */,
 				52B8C36A29AC951400B74F6F /* ContentView.swift in Sources */,
+				52016C4929ADAB8F00FE02BB /* PaymentErrorPage.swift in Sources */,
 				52DEA91829ACFFDD00E8616E /* ResultPageError.swift in Sources */,
 				52B8C37629ACA34300B74F6F /* 404ErrorPage.swift in Sources */,
 				52B8C36829AC951400B74F6F /* ErrorScreenApp.swift in Sources */,
